@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="padding_horizontal_activity">32dp</dimen>
+    <dimen name="edittext_textsize_login">22sp</dimen>
+    <dimen name="text_size_donthave_account">16sp</dimen>
+    <dimen name="padding_vertical_login">20dp</dimen>
+    <dimen name="height_buttons_login">50dp</dimen>
+    <dimen name="padding_vertical_buttons_login">15dp</dimen>
+    <dimen name="margin_vertical_login_dha_fp">12dp</dimen>
+    <dimen name="edittext_margin_account">10dp</dimen>
+
+
+</resources>

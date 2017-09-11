@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.agustin.firebaseauthandroid_diaprogramador2017.CreateAccountActivity">
+    android:background="@color/colorPrimary"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/actionbar_toolbar"></include>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="@dimen/padding_horizontal_activity">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/EditTextBlack"
+                        android:layout_marginTop="@dimen/edittext_margin_account"
+                        >
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/create_email"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/hint_email"
+                            android:inputType="textEmailAddress"
+                            />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/EditTextBlack"
+                        android:layout_marginTop="@dimen/edittext_margin_account"
+                        >
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/create_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/hint_password"
+                            android:inputType="textPassword"
+                            />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <Button
+                        android:id="@+id/signOut"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/height_buttons_login"
+                        android:text="@string/text_button_create_account"
+                        android:theme="@style/RaisedButtonDark"
+                        android:layout_marginTop="@dimen/padding_vertical_login"
+                        android:onClick="createAccount"
+                        />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

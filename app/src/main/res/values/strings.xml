@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Login Example</string>
+
+    <string name="facebook_app_id">COMPLETE HERE</string>
+    <string name="fb_login_protocol_scheme">COMPLETE HERE</string>
+
+
+    <string name="login_activity_label">Acceder</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="text_button_login">Entrar</string>
+    <string name="dont_have_account">No tenes cuenta? Pulsa aqui</string>
+    <string name="access_failed">Error al acceder</string>
+
+
+    <string name="main_activity_label">Estado</string>
+    <string name="text_button_signout">Salir</string>
+
+    <string name="create_account_activity_label">Crear cuenta</string>
+    <string name="text_button_create_account">Crear cuenta</string>
+    <string name="info_name">Nombre:</string>
+    <string name="info_email">Email:</string>
+
+</resources>
